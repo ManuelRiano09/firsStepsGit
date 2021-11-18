@@ -24,3 +24,4 @@ Metodo en codigo para git
 9. Con git commit -m "Archive to create a new proyect" se usa para pasar al repositorio local, la ultima instancia
 10. git log -p Para ver el log con todos los cambios que hemos hecho
 11. Para enviar al remote-repository usamos: git push es decir lo sube al git-hub
+12. Para no perder nuestro trabajo y ver si hay cambios hacemos git fetch
