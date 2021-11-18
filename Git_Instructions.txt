@@ -1,0 +1,26 @@
+funcion hash
+
+se usa por seguridad, para volver a un archivo mas antiguo en caso
+de que un novato halla arruinado algo, o una persona con intenciones 
+malisiosas halla cambiado algo
+
+Working directory: es nuestro computador, aqui trabajamos
+
+Staging area: un paso antes de llegar al repositorio local, es el area de ensayo
+
+Local repository: Nuestro repositorio local, lugar donde tenemos depocitado el codigo
+este es el ultimo paso, cualquier cambio debe pasar por los anteriores pasos
+
+
+Metodo en codigo para git
+1. Nos paramos en la carpeta deseada, clic derecho y abrimos bash
+2. git config --global user.name "Camilo Ducuara"  #Para codigo de establecer usuario
+3. git config --global user.email "animafoxy05@gmail.com"  #Codigo para establecer email
+4. Vamos a github con nuestra cuente e iniciamos sesion
+5. Usamos git clone https://github.com/ManuelRiano09/firsStepsGit.git para clonar un repositorio
+6. Usamos status para ver el contenido de nuestro git, y revisar los cambios
+7. Con git add "main.txt" añadimos un archivo en particular
+8. Con git add . añadimos todo lo de la carpeta. se usan para pasar del working area al staging area
+9. Con git commit -m "Archive to create a new proyect" se usa para pasar al repositorio local, la ultima instancia
+10. git log -p Para ver el log con todos los cambios que hemos hecho
+11. Para enviar al remote-repository usamos: git push es decir lo sube al git-hub
