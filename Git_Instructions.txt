@@ -25,3 +25,28 @@ Metodo en codigo para git
 10. git log -p Para ver el log con todos los cambios que hemos hecho
 11. Para enviar al remote-repository usamos: git push es decir lo sube al git-hub
 12. Para no perder nuestro trabajo y ver si hay cambios hacemos git fetch
+13. git merch para unir dos ramas
+14. git push --set-upstream origin bug-my-life para subir cambios
+15. git checkout -b bug-my-life añadir nueva rama
+16. git checkout "main" para volver a otra rama
+
+Git Ramas
+Podemos crear mas apartir de main u otras ramas
+
+Rama = Branch
+Rama Main: Es la rama principal del proyecto
+Rama Devlop: Es otra rama, copia de main y se usa para que los desarroladores trabajen
+
+Nos sirve para no generar conflictos con el trabajo de otras personas
+
+Prohibiciones
+No hacer push a main, para evitar perdidas
+
+Nomenglatura
+Bug, arreglar un bug, error del programador, algo que no sale como deberia
+Fix, arreglar, modificar o añadir algo
+feature, para crear algo
+
+feature/creation-login
+bug/creation-login
+fix/creation-login
